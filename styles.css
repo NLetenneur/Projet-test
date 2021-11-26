@@ -1,31 +1,30 @@
+/*les polices et le corps de la page*/
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 75%;
     margin: 0 11% 0 12%;
 }
-
+/*le titre de la recette*/
 h1 {
     font-size: 600;
     font-weight: 400;
 }
+/*la description de la recette*/
 h3 {
     font-size: 300;
     font-weight: 200;
 }
+/*les sous-titres*/
 h2 {
     font-size: 500;
     font-weight: 400;
     border-bottom: 1px solid lightgrey;
 }
+/*texte de base*/
 p {
     font-size: 200;
     font-weight: 200;
 }
-table {
-    font-size: 200;
-    font-weight: 200;
-    width: 100%;
-    border-collapse: collapse;
 }
 .grid-container {
     display: grid;
@@ -43,15 +42,26 @@ img {
     min-width: 40px;
    
 }
+/*caracteristiques de base du tableau*/
+table {
+    font-size: 200;
+    font-weight: 200;
+    width: 100%;
+    border-collapse: collapse;
+}
+/*titres des colonnes*/
 th{
     text-align: left;
 }
+/*centrer les textes du tableau verticalement*/
 td {
     vertical-align: middle;
 }
+/*les rayures du tableau*/
 tr:nth-child(even) {
     background-color: #f2f2f2
 }
+/*les bordures horizontales*/
 th, td {
     padding: 15px;
     border-bottom: 1px solid lightgrey;
