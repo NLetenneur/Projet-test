@@ -25,7 +25,7 @@ p {
     font-size: 200;
     font-weight: 200;
 }
-}
+/*du grid pour une partie overview propre*/
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -37,10 +37,9 @@ p {
     margin-top: auto;
     margin-bottom: 1px;
 }
+/*pour que les images ne cassent pas la mise en page sur petit écran*/
 img {
-    max-width: 120px;
-    min-width: 40px;
-   
+    max-width: 100%;
 }
 /*caracteristiques de base du tableau*/
 table {
