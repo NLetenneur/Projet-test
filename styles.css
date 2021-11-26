@@ -27,6 +27,7 @@ table {
 }
 
 #block {
-    display: flex;
+    display: inline;
+    float: left;
     width: 20%;
 }
